@@ -1,9 +1,8 @@
-
 import AlbumImage from "@/components/AlbumImage";
-import Image from "next/image";
 import { notFound } from "next/navigation";
 
 const AlbumPage = async ({ params: { id } }) => {
+
   try {
     const url =
       `https://genius-song-lyrics1.p.rapidapi.com/album/details/?id=${id}`;

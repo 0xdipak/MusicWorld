@@ -16,7 +16,7 @@ export default async function Home() {
     
 
   return (
-    <main className="max-w-[1240px] m-auto mt-44">
+    <main className="max-w-[1240px] m-auto mt-32">
       <section className="flex flex-col space-y-12 pb-40 p-4">
         <h1 className="text-3xl md:text-5xl font-bold text-center">
           TRENDING OF THE DAY
